@@ -1,0 +1,374 @@
+2020-11-02 17:52:20,938 - MainProcess - [DEBUG] os_utils: Disabling idle sleep not supported on this OS version.
+2020-11-02 17:52:21,520 - world - [INFO] launchables.world: Application Version: 2.4.0
+2020-11-02 17:52:21,520 - world - [INFO] launchables.world: System Info: User: 漆正益, Platform: Windows, Machine: DESKTOP-5SK4E57, Release: 10, Version: 10.0.18362
+2020-11-02 17:52:21,520 - world - [DEBUG] launchables.world: Debug flag: False
+2020-11-02 17:52:22,090 - world - [DEBUG] video_capture.ndsi_backend: Suppressing pyre debug logs (except zbeacon)
+2020-11-02 17:52:22,153 - world - [DEBUG] remote_recorder: Suppressing pyre debug logs (except zbeacon)
+2020-11-02 17:52:22,166 - world - [DEBUG] pupil_apriltags: Testing possible hit: D:\Pupil-Labs\Pupil v2.4.0\Pupil Capture v2.4.0\pupil_apriltags\lib\apriltag.dll...
+2020-11-02 17:52:22,168 - world - [DEBUG] pupil_apriltags: Found working clib at D:\Pupil-Labs\Pupil v2.4.0\Pupil Capture v2.4.0\pupil_apriltags\lib\apriltag.dll
+2020-11-02 17:52:22,230 - world - [DEBUG] plugin: Scanning: pupil_capture_lsl_relay.py
+2020-11-02 17:52:22,242 - world - [WARNING] plugin: Failed to load 'pupil_capture_lsl_relay'. Reason: 'Failed to load dynlib/dll 'C:\\Users\\漆正益\\pupil_capture_settings\\plugins\\pylsl\\lib\\liblsl64.dll'. Most probably this dynlib/dll was not found when the application was frozen.' 
+2020-11-02 17:52:22,245 - world - [DEBUG] plugin: Traceback (most recent call last):
+  File "site-packages\PyInstaller\loader\pyiboot01_bootstrap.py", line 149, in __init__
+  File "ctypes\__init__.py", line 348, in __init__
+OSError: [WinError 126] 找不到指定的模块。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "shared_modules\plugin.py", line 494, in import_runtime_plugins
+  File "importlib\__init__.py", line 126, in import_module
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\漆正益\pupil_capture_settings\plugins\pupil_capture_lsl_relay.py", line 16, in <module>
+    import pylsl as lsl
+  File "C:\Users\漆正益\pupil_capture_settings\plugins\pylsl\__init__.py", line 2, in <module>
+    from .pylsl import IRREGULAR_RATE, DEDUCED_TIMESTAMP, FOREVER, cf_float32,\
+  File "C:\Users\漆正益\pupil_capture_settings\plugins\pylsl\pylsl.py", line 1217, in <module>
+    lib = CDLL(libpath)
+  File "site-packages\PyInstaller\loader\pyiboot01_bootstrap.py", line 151, in __init__
+PyInstallerImportError: Failed to load dynlib/dll 'C:\\Users\\漆正益\\pupil_capture_settings\\plugins\\pylsl\\lib\\liblsl64.dll'. Most probably this dynlib/dll was not found when the application was frozen.
+
+2020-11-02 17:52:22,246 - world - [DEBUG] plugin: Scanning: pylsl
+2020-11-02 17:52:22,254 - world - [WARNING] plugin: Failed to load 'pylsl'. Reason: 'Failed to load dynlib/dll 'C:\\Users\\漆正益\\pupil_capture_settings\\plugins\\pylsl\\lib\\liblsl64.dll'. Most probably this dynlib/dll was not found when the application was frozen.' 
+2020-11-02 17:52:22,256 - world - [DEBUG] plugin: Traceback (most recent call last):
+  File "site-packages\PyInstaller\loader\pyiboot01_bootstrap.py", line 149, in __init__
+  File "ctypes\__init__.py", line 348, in __init__
+OSError: [WinError 126] 找不到指定的模块。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "shared_modules\plugin.py", line 494, in import_runtime_plugins
+  File "importlib\__init__.py", line 126, in import_module
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\漆正益\pupil_capture_settings\plugins\pylsl\__init__.py", line 2, in <module>
+    from .pylsl import IRREGULAR_RATE, DEDUCED_TIMESTAMP, FOREVER, cf_float32,\
+  File "C:\Users\漆正益\pupil_capture_settings\plugins\pylsl\pylsl.py", line 1217, in <module>
+    lib = CDLL(libpath)
+  File "site-packages\PyInstaller\loader\pyiboot01_bootstrap.py", line 151, in __init__
+PyInstallerImportError: Failed to load dynlib/dll 'C:\\Users\\漆正益\\pupil_capture_settings\\plugins\\pylsl\\lib\\liblsl64.dll'. Most probably this dynlib/dll was not found when the application was frozen.
+
+2020-11-02 17:52:22,256 - world - [DEBUG] file_methods: Session settings file 'C:\Users\漆正益\pupil_capture_settings\user_settings_world' not found. Will make new one on exit.
+2020-11-02 17:52:22,257 - world - [INFO] launchables.world: Session setting are from a different version of this app. I will not use those.
+2020-11-02 17:52:23,217 - world - [DEBUG] plugin: Plugin HMD_Streaming_Manager failed to load, not available for import.
+2020-11-02 17:52:23,217 - world - [DEBUG] plugin: Plugin Dummy_Gaze_Mapper failed to load, not available for import.
+2020-11-02 17:52:23,217 - world - [DEBUG] plugin: Loading plugin: UVC_Manager with settings {}
+2020-11-02 17:52:23,401 - world - [DEBUG] plugin: Loading plugin: NDSI_Manager with settings {}
+2020-11-02 17:52:23,405 - world - [DEBUG] ndsi.network: Starting network...
+2020-11-02 17:52:23,464 - world - [DEBUG] pyre.zbeacon: Available interfaces: [{'Realtek PCIe GBE Family Controller': {2: {'addr': '192.168.137.75', 'netmask': '255.255.255.0', 'broadcast': '192.168.137.255', 'network': '192.168.137.0'}, 23: {'addr': 'fe80::69a2:bab6:2aa7:fb8b', 'netmask': 'ffff:ffff:ffff:ffff::', 'broadcast': 'fe80::ffff:ffff:ffff:ffff', 'network': 'fe80::'}}}, {'Software Loopback Interface 1': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'broadcast': '127.255.255.255', 'network': '127.0.0.0'}, 23: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff', 'broadcast': '::1', 'network': '::1'}}}]
+2020-11-02 17:52:23,465 - world - [DEBUG] pyre.zbeacon: Checking out interface Realtek PCIe GBE Family Controller.
+2020-11-02 17:52:23,466 - world - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
+2020-11-02 17:52:23,466 - world - [DEBUG] pyre.zbeacon: Address: 192.168.137.75
+2020-11-02 17:52:23,466 - world - [DEBUG] pyre.zbeacon: Network: 192.168.137.0
+2020-11-02 17:52:23,467 - world - [DEBUG] pyre.zbeacon: Broadcast: 192.168.137.255
+2020-11-02 17:52:23,467 - world - [DEBUG] pyre.zbeacon: Interface name: Realtek PCIe GBE Family Controller
+2020-11-02 17:52:23,468 - world - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.137.255:5670
+2020-11-02 17:52:23,469 - world - [DEBUG] ndsi.network: Starting network...
+2020-11-02 17:52:23,512 - world - [DEBUG] pyre.zbeacon: Available interfaces: [{'Realtek PCIe GBE Family Controller': {2: {'addr': '192.168.137.75', 'netmask': '255.255.255.0', 'broadcast': '192.168.137.255', 'network': '192.168.137.0'}, 23: {'addr': 'fe80::69a2:bab6:2aa7:fb8b', 'netmask': 'ffff:ffff:ffff:ffff::', 'broadcast': 'fe80::ffff:ffff:ffff:ffff', 'network': 'fe80::'}}}, {'Software Loopback Interface 1': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'broadcast': '127.255.255.255', 'network': '127.0.0.0'}, 23: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff', 'broadcast': '::1', 'network': '::1'}}}]
+2020-11-02 17:52:23,512 - world - [DEBUG] pyre.zbeacon: Checking out interface Realtek PCIe GBE Family Controller.
+2020-11-02 17:52:23,513 - world - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
+2020-11-02 17:52:23,513 - world - [DEBUG] pyre.zbeacon: Address: 192.168.137.75
+2020-11-02 17:52:23,513 - world - [DEBUG] pyre.zbeacon: Network: 192.168.137.0
+2020-11-02 17:52:23,514 - world - [DEBUG] pyre.zbeacon: Broadcast: 192.168.137.255
+2020-11-02 17:52:23,514 - world - [DEBUG] pyre.zbeacon: Interface name: Realtek PCIe GBE Family Controller
+2020-11-02 17:52:23,515 - world - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.137.255:5670
+2020-11-02 17:52:23,516 - world - [DEBUG] plugin: Loading plugin: File_Manager with settings {}
+2020-11-02 17:52:23,517 - world - [DEBUG] plugin: Loading plugin: UVC_Source with settings {'preferred_names': ['Pupil Cam1 ID2', 'Logitech Camera', '(046d:081d)', 'C510', 'B525', 'C525', 'C615', 'C920', 'C930e'], 'frame_size': (1280, 720), 'frame_rate': 30}
+2020-11-02 17:52:23,519 - world - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 1443 --pid 37424
+2020-11-02 17:52:23,572 - world - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 1443 --pid 37425
+2020-11-02 17:52:23,618 - world - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 1443 --pid 37426
+2020-11-02 17:52:23,666 - world - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 1133 --pid 2115
+2020-11-02 17:52:23,712 - world - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 6127 --pid 18447
+2020-11-02 17:52:23,760 - world - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 3141 --pid 25771
+2020-11-02 17:52:24,016 - world - [DEBUG] uvc: Found device that mached uid:'2:9'
+2020-11-02 17:52:24,039 - world - [DEBUG] uvc: Device '2:9' opended.
+2020-11-02 17:52:24,039 - world - [DEBUG] uvc: avaible video modes: [{'size': (1920, 1080), 'rates': [30]}, {'size': (640, 480), 'rates': [120, 90, 60, 30]}, {'size': (1280, 720), 'rates': [60, 30]}, {'size': (1024, 768), 'rates': [30]}, {'size': (800, 600), 'rates': [60]}, {'size': (1280, 1024), 'rates': [30]}, {'size': (320, 240), 'rates': [120]}]
+2020-11-02 17:52:24,040 - world - [DEBUG] uvc: Adding "Auto Exposure Mode" control.
+2020-11-02 17:52:24,044 - world - [DEBUG] uvc: Adding "Auto Exposure Priority" control.
+2020-11-02 17:52:24,046 - world - [DEBUG] uvc: Adding "Absolute Exposure Time" control.
+2020-11-02 17:52:24,051 - world - [DEBUG] uvc: Adding "Backlight Compensation" control.
+2020-11-02 17:52:24,057 - world - [DEBUG] uvc: Adding "Brightness" control.
+2020-11-02 17:52:24,063 - world - [DEBUG] uvc: Adding "Contrast" control.
+2020-11-02 17:52:24,069 - world - [DEBUG] uvc: Adding "Gain" control.
+2020-11-02 17:52:24,075 - world - [DEBUG] uvc: Adding "Power Line frequency" control.
+2020-11-02 17:52:24,078 - world - [DEBUG] uvc: Adding "Hue" control.
+2020-11-02 17:52:24,084 - world - [DEBUG] uvc: Adding "Saturation" control.
+2020-11-02 17:52:24,090 - world - [DEBUG] uvc: Adding "Sharpness" control.
+2020-11-02 17:52:24,107 - world - [DEBUG] uvc: Adding "Gamma" control.
+2020-11-02 17:52:24,113 - world - [DEBUG] uvc: Adding "White Balance temperature" control.
+2020-11-02 17:52:24,119 - world - [DEBUG] uvc: Adding "White Balance temperature,Auto" control.
+2020-11-02 17:52:24,137 - world - [DEBUG] camera_models: No recorded intrinsics found for camera Pupil Cam1 ID2 at resolution (1280, 720)
+2020-11-02 17:52:24,137 - world - [INFO] camera_models: Loading default intrinsics!
+2020-11-02 17:52:24,137 - world - [DEBUG] uvc: Setting mode: 1280,720,30
+2020-11-02 17:52:24,165 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Exposure Mode" found from settings.
+2020-11-02 17:52:24,165 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Exposure Priority" found from settings.
+2020-11-02 17:52:24,165 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Absolute Exposure Time" found from settings.
+2020-11-02 17:52:24,165 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Backlight Compensation" found from settings.
+2020-11-02 17:52:24,166 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Brightness" found from settings.
+2020-11-02 17:52:24,166 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Contrast" found from settings.
+2020-11-02 17:52:24,166 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Gain" found from settings.
+2020-11-02 17:52:24,166 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Power Line frequency" found from settings.
+2020-11-02 17:52:24,166 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Hue" found from settings.
+2020-11-02 17:52:24,166 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Saturation" found from settings.
+2020-11-02 17:52:24,167 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Sharpness" found from settings.
+2020-11-02 17:52:24,167 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Gamma" found from settings.
+2020-11-02 17:52:24,167 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "White Balance temperature" found from settings.
+2020-11-02 17:52:24,167 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "White Balance temperature,Auto" found from settings.
+2020-11-02 17:52:24,365 - world - [DEBUG] plugin: Loading plugin: NetworkApiPlugin with settings {}
+2020-11-02 17:52:24,387 - world - [DEBUG] network_api.controller.pupil_remote_controller: on_pupil_remote_server_did_start(*:50020)
+2020-11-02 17:52:24,399 - world - [DEBUG] plugin: Loading plugin: Fixation_Detector with settings {}
+2020-11-02 17:52:24,401 - world - [DEBUG] plugin: Loading plugin: ScreenMarkerChoreographyPlugin with settings {}
+2020-11-02 17:52:24,403 - world - [DEBUG] plugin: Loading plugin: Pupil_Data_Relay with settings {}
+2020-11-02 17:52:24,414 - world - [DEBUG] plugin: Loading plugin: Log_Display with settings {}
+2020-11-02 17:52:24,426 - world - [DEBUG] plugin: Loading plugin: Display_Recent_Gaze with settings {}
+2020-11-02 17:52:24,426 - world - [DEBUG] plugin: Loading plugin: Recorder with settings {}
+2020-11-02 17:52:24,427 - world - [DEBUG] plugin: Loading plugin: Plugin_Manager with settings {}
+2020-11-02 17:52:24,428 - world - [DEBUG] plugin: Loading plugin: System_Graphs with settings {}
+2020-11-02 17:52:24,435 - world - [DEBUG] plugin: Loading plugin: Blink_Detection with settings {}
+2020-11-02 17:52:24,436 - world - [DEBUG] plugin: Loading plugin: Accuracy_Visualizer with settings {}
+2020-11-02 17:52:24,478 - world - [WARNING] launchables.world: Process started.
+2020-11-02 17:52:24,479 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from b410ca349b884f98be3d7df50b79e71b>
+2020-11-02 17:52:24,479 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 32624718752a45d786351f0e28196c53>
+2020-11-02 17:52:24,499 - world - [DEBUG] uvc: Stream start.
+2020-11-02 17:52:25,747 - eye0 - [DEBUG] video_capture.ndsi_backend: Suppressing pyre debug logs (except zbeacon)
+2020-11-02 17:52:25,772 - eye0 - [INFO] root: Refraction corrected 3D pupil detector not available!
+2020-11-02 17:52:26,017 - eye1 - [DEBUG] video_capture.ndsi_backend: Suppressing pyre debug logs (except zbeacon)
+2020-11-02 17:52:26,041 - eye1 - [INFO] root: Refraction corrected 3D pupil detector not available!
+2020-11-02 17:52:26,793 - eye0 - [DEBUG] plugin: Loading plugin: UVC_Manager with settings {}
+2020-11-02 17:52:26,961 - eye0 - [DEBUG] plugin: Loading plugin: NDSI_Manager with settings {}
+2020-11-02 17:52:26,963 - eye0 - [DEBUG] ndsi.network: Starting network...
+2020-11-02 17:52:27,013 - eye0 - [DEBUG] pyre.zbeacon: Available interfaces: [{'Realtek PCIe GBE Family Controller': {2: {'addr': '192.168.137.75', 'netmask': '255.255.255.0', 'broadcast': '192.168.137.255', 'network': '192.168.137.0'}, 23: {'addr': 'fe80::69a2:bab6:2aa7:fb8b', 'netmask': 'ffff:ffff:ffff:ffff::', 'broadcast': 'fe80::ffff:ffff:ffff:ffff', 'network': 'fe80::'}}}, {'Software Loopback Interface 1': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'broadcast': '127.255.255.255', 'network': '127.0.0.0'}, 23: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff', 'broadcast': '::1', 'network': '::1'}}}]
+2020-11-02 17:52:27,014 - eye0 - [DEBUG] pyre.zbeacon: Checking out interface Realtek PCIe GBE Family Controller.
+2020-11-02 17:52:27,014 - eye0 - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
+2020-11-02 17:52:27,015 - eye0 - [DEBUG] pyre.zbeacon: Address: 192.168.137.75
+2020-11-02 17:52:27,016 - eye0 - [DEBUG] pyre.zbeacon: Network: 192.168.137.0
+2020-11-02 17:52:27,016 - eye0 - [DEBUG] pyre.zbeacon: Broadcast: 192.168.137.255
+2020-11-02 17:52:27,016 - eye0 - [DEBUG] pyre.zbeacon: Interface name: Realtek PCIe GBE Family Controller
+2020-11-02 17:52:27,017 - eye0 - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.137.255:5670
+2020-11-02 17:52:27,018 - eye0 - [DEBUG] ndsi.network: Starting network...
+2020-11-02 17:52:27,040 - eye1 - [DEBUG] plugin: Loading plugin: UVC_Manager with settings {}
+2020-11-02 17:52:27,054 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 815ca82c3dfe4130b977f658fb069eb8>
+2020-11-02 17:52:27,054 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 815ca82c3dfe4130b977f658fb069eb8>
+2020-11-02 17:52:27,069 - eye0 - [DEBUG] pyre.zbeacon: Available interfaces: [{'Realtek PCIe GBE Family Controller': {2: {'addr': '192.168.137.75', 'netmask': '255.255.255.0', 'broadcast': '192.168.137.255', 'network': '192.168.137.0'}, 23: {'addr': 'fe80::69a2:bab6:2aa7:fb8b', 'netmask': 'ffff:ffff:ffff:ffff::', 'broadcast': 'fe80::ffff:ffff:ffff:ffff', 'network': 'fe80::'}}}, {'Software Loopback Interface 1': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'broadcast': '127.255.255.255', 'network': '127.0.0.0'}, 23: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff', 'broadcast': '::1', 'network': '::1'}}}]
+2020-11-02 17:52:27,069 - eye0 - [DEBUG] pyre.zbeacon: Checking out interface Realtek PCIe GBE Family Controller.
+2020-11-02 17:52:27,070 - eye0 - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
+2020-11-02 17:52:27,070 - eye0 - [DEBUG] pyre.zbeacon: Address: 192.168.137.75
+2020-11-02 17:52:27,070 - eye0 - [DEBUG] pyre.zbeacon: Network: 192.168.137.0
+2020-11-02 17:52:27,071 - eye0 - [DEBUG] pyre.zbeacon: Broadcast: 192.168.137.255
+2020-11-02 17:52:27,071 - eye0 - [DEBUG] pyre.zbeacon: Interface name: Realtek PCIe GBE Family Controller
+2020-11-02 17:52:27,073 - eye0 - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.137.255:5670
+2020-11-02 17:52:27,075 - eye0 - [DEBUG] plugin: Loading plugin: File_Manager with settings {}
+2020-11-02 17:52:27,075 - eye0 - [DEBUG] plugin: Loading plugin: UVC_Source with settings {'source_mode': 1, 'frame_size': [192, 192], 'frame_rate': 120, 'check_stripes': True, 'exposure_mode': 'manual', 'name': 'Pupil Cam2 ID0', 'uvc_controls': {'Auto Exposure Mode': 1, 'Auto Exposure Priority': 0, 'Absolute Exposure Time': 32, 'Auto Focus': 0, 'Absolute Focus': 1, 'Absolute Iris ': 100, 'Scanning Mode ': 1, 'Zoom absolute control': 0, 'Pan control': 0, 'Tilt control': 0, 'Roll absolute control': 0, 'Privacy Shutter control': 0, 'Backlight Compensation': 121, 'Brightness': 0, 'Contrast': 48, 'Gain': 0, 'Power Line frequency': 1, 'Hue': 0, 'Saturation': 0, 'Sharpness': 2, 'Gamma': 200, 'White Balance temperature': 4600, 'White Balance temperature,Auto': 1}}
+2020-11-02 17:52:27,079 - eye0 - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 1443 --pid 37424
+2020-11-02 17:52:27,084 - eye1 - [DEBUG] plugin: Loading plugin: NDSI_Manager with settings {}
+2020-11-02 17:52:27,086 - eye1 - [DEBUG] ndsi.network: Starting network...
+2020-11-02 17:52:27,111 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from f306b80e5bdb44509534dcca188acde4>
+2020-11-02 17:52:27,111 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from f306b80e5bdb44509534dcca188acde4>
+2020-11-02 17:52:27,137 - eye1 - [DEBUG] pyre.zbeacon: Available interfaces: [{'Realtek PCIe GBE Family Controller': {2: {'addr': '192.168.137.75', 'netmask': '255.255.255.0', 'broadcast': '192.168.137.255', 'network': '192.168.137.0'}, 23: {'addr': 'fe80::69a2:bab6:2aa7:fb8b', 'netmask': 'ffff:ffff:ffff:ffff::', 'broadcast': 'fe80::ffff:ffff:ffff:ffff', 'network': 'fe80::'}}}, {'Software Loopback Interface 1': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'broadcast': '127.255.255.255', 'network': '127.0.0.0'}, 23: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff', 'broadcast': '::1', 'network': '::1'}}}]
+2020-11-02 17:52:27,137 - eye1 - [DEBUG] pyre.zbeacon: Checking out interface Realtek PCIe GBE Family Controller.
+2020-11-02 17:52:27,137 - eye1 - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
+2020-11-02 17:52:27,137 - eye1 - [DEBUG] pyre.zbeacon: Address: 192.168.137.75
+2020-11-02 17:52:27,137 - eye1 - [DEBUG] pyre.zbeacon: Network: 192.168.137.0
+2020-11-02 17:52:27,140 - eye1 - [DEBUG] pyre.zbeacon: Broadcast: 192.168.137.255
+2020-11-02 17:52:27,140 - eye1 - [DEBUG] pyre.zbeacon: Interface name: Realtek PCIe GBE Family Controller
+2020-11-02 17:52:27,141 - eye1 - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.137.255:5670
+2020-11-02 17:52:27,142 - eye1 - [DEBUG] ndsi.network: Starting network...
+2020-11-02 17:52:27,169 - eye0 - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 1443 --pid 37425
+2020-11-02 17:52:27,193 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 34b5bf41ca064b9f8998b42b486e7211>
+2020-11-02 17:52:27,194 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 34b5bf41ca064b9f8998b42b486e7211>
+2020-11-02 17:52:27,201 - eye1 - [DEBUG] pyre.zbeacon: Available interfaces: [{'Realtek PCIe GBE Family Controller': {2: {'addr': '192.168.137.75', 'netmask': '255.255.255.0', 'broadcast': '192.168.137.255', 'network': '192.168.137.0'}, 23: {'addr': 'fe80::69a2:bab6:2aa7:fb8b', 'netmask': 'ffff:ffff:ffff:ffff::', 'broadcast': 'fe80::ffff:ffff:ffff:ffff', 'network': 'fe80::'}}}, {'Software Loopback Interface 1': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0', 'broadcast': '127.255.255.255', 'network': '127.0.0.0'}, 23: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff', 'broadcast': '::1', 'network': '::1'}}}]
+2020-11-02 17:52:27,201 - eye1 - [DEBUG] pyre.zbeacon: Checking out interface Realtek PCIe GBE Family Controller.
+2020-11-02 17:52:27,201 - eye1 - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
+2020-11-02 17:52:27,201 - eye1 - [DEBUG] pyre.zbeacon: Address: 192.168.137.75
+2020-11-02 17:52:27,201 - eye1 - [DEBUG] pyre.zbeacon: Network: 192.168.137.0
+2020-11-02 17:52:27,202 - eye1 - [DEBUG] pyre.zbeacon: Broadcast: 192.168.137.255
+2020-11-02 17:52:27,202 - eye1 - [DEBUG] pyre.zbeacon: Interface name: Realtek PCIe GBE Family Controller
+2020-11-02 17:52:27,202 - eye1 - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.137.255:5670
+2020-11-02 17:52:27,203 - eye1 - [DEBUG] plugin: Loading plugin: File_Manager with settings {}
+2020-11-02 17:52:27,203 - eye1 - [DEBUG] plugin: Loading plugin: UVC_Source with settings {'source_mode': 1, 'frame_size': [192, 192], 'frame_rate': 120, 'check_stripes': True, 'exposure_mode': 'manual', 'name': 'Pupil Cam2 ID1', 'uvc_controls': {'Auto Exposure Mode': 1, 'Auto Exposure Priority': 0, 'Absolute Exposure Time': 32, 'Auto Focus': 0, 'Absolute Focus': 1, 'Absolute Iris ': 100, 'Scanning Mode ': 1, 'Zoom absolute control': 0, 'Pan control': 0, 'Tilt control': 0, 'Roll absolute control': 0, 'Privacy Shutter control': 0, 'Backlight Compensation': 121, 'Brightness': 0, 'Contrast': 48, 'Gain': 0, 'Power Line frequency': 1, 'Hue': 0, 'Saturation': 0, 'Sharpness': 2, 'Gamma': 200, 'White Balance temperature': 4600, 'White Balance temperature,Auto': 1}}
+2020-11-02 17:52:27,218 - eye1 - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 1443 --pid 37424
+2020-11-02 17:52:27,242 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 28596537c25a422289e86556900ae9a9>
+2020-11-02 17:52:27,244 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 28596537c25a422289e86556900ae9a9>
+2020-11-02 17:52:27,275 - eye0 - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 1443 --pid 37426
+2020-11-02 17:52:27,314 - eye1 - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 1443 --pid 37425
+2020-11-02 17:52:27,345 - eye0 - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 1133 --pid 2115
+2020-11-02 17:52:27,378 - eye1 - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 1443 --pid 37426
+2020-11-02 17:52:27,401 - eye0 - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 6127 --pid 18447
+2020-11-02 17:52:27,436 - eye1 - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 1133 --pid 2115
+2020-11-02 17:52:27,461 - eye0 - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 3141 --pid 25771
+2020-11-02 17:52:27,500 - eye1 - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 6127 --pid 18447
+2020-11-02 17:52:27,554 - eye1 - [DEBUG] video_capture.uvc_backend: Running PupilDrvInst.exe --vid 3141 --pid 25771
+2020-11-02 17:52:27,710 - eye1 - [DEBUG] uvc: Found device that mached uid:'2:11'
+2020-11-02 17:52:27,718 - eye0 - [DEBUG] uvc: Found device that mached uid:'2:10'
+2020-11-02 17:52:27,722 - eye1 - [DEBUG] uvc: Device '2:11' opended.
+2020-11-02 17:52:27,723 - eye1 - [DEBUG] uvc: avaible video modes: [{'size': (400, 400), 'rates': [120, 90, 60, 30]}, {'size': (192, 192), 'rates': [200, 180, 120, 90, 60, 30]}]
+2020-11-02 17:52:27,723 - eye1 - [DEBUG] uvc: Adding "Auto Exposure Mode" control.
+2020-11-02 17:52:27,726 - eye1 - [DEBUG] uvc: Adding "Auto Exposure Priority" control.
+2020-11-02 17:52:27,727 - eye1 - [DEBUG] uvc: Adding "Absolute Exposure Time" control.
+2020-11-02 17:52:27,730 - eye1 - [DEBUG] uvc: Adding "Auto Focus" control.
+2020-11-02 17:52:27,732 - eye1 - [DEBUG] uvc: Adding "Absolute Focus" control.
+2020-11-02 17:52:27,733 - eye0 - [DEBUG] uvc: Device '2:10' opended.
+2020-11-02 17:52:27,734 - eye0 - [DEBUG] uvc: avaible video modes: [{'size': (400, 400), 'rates': [120, 90, 60, 30]}, {'size': (192, 192), 'rates': [200, 180, 120, 90, 60, 30]}]
+2020-11-02 17:52:27,734 - eye0 - [DEBUG] uvc: Adding "Auto Exposure Mode" control.
+2020-11-02 17:52:27,735 - eye1 - [DEBUG] uvc: Adding "Absolute Iris " control.
+2020-11-02 17:52:27,737 - eye0 - [DEBUG] uvc: Adding "Auto Exposure Priority" control.
+2020-11-02 17:52:27,738 - eye0 - [DEBUG] uvc: Adding "Absolute Exposure Time" control.
+2020-11-02 17:52:27,739 - eye1 - [DEBUG] uvc: Adding "Scanning Mode " control.
+2020-11-02 17:52:27,741 - eye1 - [DEBUG] uvc: Adding "Zoom absolute control" control.
+2020-11-02 17:52:27,742 - eye0 - [DEBUG] uvc: Adding "Auto Focus" control.
+2020-11-02 17:52:27,744 - eye1 - [DEBUG] uvc: Adding "Pan control" control.
+2020-11-02 17:52:27,745 - eye0 - [DEBUG] uvc: Adding "Absolute Focus" control.
+2020-11-02 17:52:27,748 - eye1 - [DEBUG] uvc: Adding "Tilt control" control.
+2020-11-02 17:52:27,749 - eye0 - [DEBUG] uvc: Adding "Absolute Iris " control.
+2020-11-02 17:52:27,753 - eye1 - [DEBUG] uvc: Adding "Roll absolute control" control.
+2020-11-02 17:52:27,753 - eye0 - [DEBUG] uvc: Adding "Scanning Mode " control.
+2020-11-02 17:52:27,755 - eye0 - [DEBUG] uvc: Adding "Zoom absolute control" control.
+2020-11-02 17:52:27,757 - eye1 - [DEBUG] uvc: Adding "Privacy Shutter control" control.
+2020-11-02 17:52:27,758 - eye1 - [DEBUG] uvc: Adding "Backlight Compensation" control.
+2020-11-02 17:52:27,761 - eye0 - [DEBUG] uvc: Adding "Pan control" control.
+2020-11-02 17:52:27,762 - eye1 - [DEBUG] uvc: Adding "Brightness" control.
+2020-11-02 17:52:27,766 - eye0 - [DEBUG] uvc: Adding "Tilt control" control.
+2020-11-02 17:52:27,766 - eye1 - [DEBUG] uvc: Adding "Contrast" control.
+2020-11-02 17:52:27,769 - eye1 - [DEBUG] uvc: Adding "Gain" control.
+2020-11-02 17:52:27,770 - eye0 - [DEBUG] uvc: Adding "Roll absolute control" control.
+2020-11-02 17:52:27,773 - eye1 - [DEBUG] uvc: Adding "Power Line frequency" control.
+2020-11-02 17:52:27,774 - eye0 - [DEBUG] uvc: Adding "Privacy Shutter control" control.
+2020-11-02 17:52:27,775 - eye1 - [DEBUG] uvc: Adding "Hue" control.
+2020-11-02 17:52:27,776 - eye0 - [DEBUG] uvc: Adding "Backlight Compensation" control.
+2020-11-02 17:52:27,779 - eye1 - [DEBUG] uvc: Adding "Saturation" control.
+2020-11-02 17:52:27,780 - eye0 - [DEBUG] uvc: Adding "Brightness" control.
+2020-11-02 17:52:27,783 - eye1 - [DEBUG] uvc: Adding "Sharpness" control.
+2020-11-02 17:52:27,784 - eye0 - [DEBUG] uvc: Adding "Contrast" control.
+2020-11-02 17:52:27,787 - eye1 - [DEBUG] uvc: Adding "Gamma" control.
+2020-11-02 17:52:27,788 - eye0 - [DEBUG] uvc: Adding "Gain" control.
+2020-11-02 17:52:27,790 - eye1 - [DEBUG] uvc: Adding "White Balance temperature" control.
+2020-11-02 17:52:27,792 - eye0 - [DEBUG] uvc: Adding "Power Line frequency" control.
+2020-11-02 17:52:27,794 - eye1 - [DEBUG] uvc: Adding "White Balance temperature,Auto" control.
+2020-11-02 17:52:27,794 - eye0 - [DEBUG] uvc: Adding "Hue" control.
+2020-11-02 17:52:27,799 - eye0 - [DEBUG] uvc: Adding "Saturation" control.
+2020-11-02 17:52:27,803 - eye0 - [DEBUG] uvc: Adding "Sharpness" control.
+2020-11-02 17:52:27,807 - eye0 - [DEBUG] uvc: Adding "Gamma" control.
+2020-11-02 17:52:27,811 - eye0 - [DEBUG] uvc: Adding "White Balance temperature" control.
+2020-11-02 17:52:27,813 - eye1 - [DEBUG] camera_models: No recorded intrinsics found for camera Pupil Cam2 ID1 at resolution (192, 192)
+2020-11-02 17:52:27,813 - eye1 - [INFO] camera_models: Loading default intrinsics!
+2020-11-02 17:52:27,813 - eye1 - [DEBUG] uvc: Setting mode: 192,192,120
+2020-11-02 17:52:27,815 - eye0 - [DEBUG] uvc: Adding "White Balance temperature,Auto" control.
+2020-11-02 17:52:27,835 - eye0 - [DEBUG] camera_models: No recorded intrinsics found for camera Pupil Cam2 ID0 at resolution (192, 192)
+2020-11-02 17:52:27,835 - eye0 - [INFO] camera_models: Loading default intrinsics!
+2020-11-02 17:52:27,836 - eye0 - [DEBUG] uvc: Setting mode: 192,192,120
+2020-11-02 17:52:27,921 - eye1 - [WARNING] uvc: Could not set Value. 'Backlight Compensation'.
+2020-11-02 17:52:27,945 - eye0 - [WARNING] uvc: Could not set Value. 'Backlight Compensation'.
+2020-11-02 17:52:28,154 - eye0 - [DEBUG] plugin: Loading plugin: Roi with settings {'frame_size': [192, 192], 'bounds': [0, 0, 191, 191]}
+2020-11-02 17:52:28,154 - eye0 - [DEBUG] plugin: Loading plugin: Detector2DPlugin with settings {}
+2020-11-02 17:52:28,155 - eye0 - [DEBUG] plugin: Loading plugin: Detector3DPlugin with settings {}
+2020-11-02 17:52:28,159 - eye1 - [DEBUG] plugin: Loading plugin: Roi with settings {'frame_size': [192, 192], 'bounds': [0, 0, 191, 191]}
+2020-11-02 17:52:28,159 - eye1 - [DEBUG] plugin: Loading plugin: Detector2DPlugin with settings {}
+2020-11-02 17:52:28,160 - eye1 - [DEBUG] plugin: Loading plugin: Detector3DPlugin with settings {}
+2020-11-02 17:52:28,287 - eye0 - [WARNING] launchables.eye: Process started.
+2020-11-02 17:52:28,289 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 32624718752a45d786351f0e28196c53>
+2020-11-02 17:52:28,290 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 815ca82c3dfe4130b977f658fb069eb8>
+2020-11-02 17:52:28,291 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from b410ca349b884f98be3d7df50b79e71b>
+2020-11-02 17:52:28,291 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 32624718752a45d786351f0e28196c53>
+2020-11-02 17:52:28,293 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from f306b80e5bdb44509534dcca188acde4>
+2020-11-02 17:52:28,293 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from b410ca349b884f98be3d7df50b79e71b>
+2020-11-02 17:52:28,294 - eye1 - [WARNING] launchables.eye: Process started.
+2020-11-02 17:52:28,294 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 815ca82c3dfe4130b977f658fb069eb8>
+2020-11-02 17:52:28,295 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 34b5bf41ca064b9f8998b42b486e7211>
+2020-11-02 17:52:28,295 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from b410ca349b884f98be3d7df50b79e71b>
+2020-11-02 17:52:28,295 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 815ca82c3dfe4130b977f658fb069eb8>
+2020-11-02 17:52:28,295 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 32624718752a45d786351f0e28196c53>
+2020-11-02 17:52:28,296 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from b410ca349b884f98be3d7df50b79e71b>
+2020-11-02 17:52:28,296 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from f306b80e5bdb44509534dcca188acde4>
+2020-11-02 17:52:28,296 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 32624718752a45d786351f0e28196c53>
+2020-11-02 17:52:28,297 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 28596537c25a422289e86556900ae9a9>
+2020-11-02 17:52:28,297 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from f306b80e5bdb44509534dcca188acde4>
+2020-11-02 17:52:28,298 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 34b5bf41ca064b9f8998b42b486e7211>
+2020-11-02 17:52:28,299 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 34b5bf41ca064b9f8998b42b486e7211>
+2020-11-02 17:52:28,301 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 28596537c25a422289e86556900ae9a9>
+2020-11-02 17:52:28,301 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 28596537c25a422289e86556900ae9a9>
+2020-11-02 17:52:28,373 - eye1 - [DEBUG] uvc: Stream start.
+2020-11-02 17:52:28,384 - eye0 - [DEBUG] uvc: Stream start.
+2020-11-02 17:52:28,411 - eye1 - [DEBUG] video_capture.uvc_backend: Received frame with invalid timestamp. This can happen after a disconnect. Frame will be dropped!
+2020-11-02 17:52:28,419 - eye1 - [DEBUG] pupil_detector_plugins.detector_3d_plugin: Focal length change detected: 283.269172. Re-initializing 3D detector.
+2020-11-02 17:52:28,423 - eye0 - [DEBUG] video_capture.uvc_backend: Received frame with invalid timestamp. This can happen after a disconnect. Frame will be dropped!
+2020-11-02 17:52:28,430 - eye0 - [DEBUG] pupil_detector_plugins.detector_3d_plugin: Focal length change detected: 283.269172. Re-initializing 3D detector.
+2020-11-02 17:52:29,928 - world - [DEBUG] blink_detection: Blink onset detected with confidence 0.534
+2020-11-02 17:52:29,960 - world - [DEBUG] blink_detection: Blink onset detected with confidence 0.573
+2020-11-02 17:52:30,396 - world - [DEBUG] blink_detection: Blink onset detected with confidence 0.507
+2020-11-02 17:52:30,428 - world - [DEBUG] blink_detection: Blink onset detected with confidence 0.544
+2020-11-02 17:52:30,596 - world - [DEBUG] blink_detection: Blink offset detected with confidence 0.694
+2020-11-02 17:52:30,631 - world - [DEBUG] blink_detection: Blink offset detected with confidence 0.737
+2020-11-02 17:52:30,664 - world - [DEBUG] blink_detection: Blink offset detected with confidence 0.737
+2020-11-02 17:52:32,055 - world - [INFO] calibration_choreography.base_plugin: Starting  Calibration
+2020-11-02 17:52:32,432 - world - [DEBUG] calibration_choreography.screen_marker_plugin: Moving screen marker to site at (0.5, 0.5)
+2020-11-02 17:52:35,601 - world - [DEBUG] calibration_choreography.screen_marker_plugin: Moving screen marker to site at (0.0, 1.0)
+2020-11-02 17:52:35,763 - world - [DEBUG] blink_detection: Blink onset detected with confidence 0.677
+2020-11-02 17:52:35,799 - world - [DEBUG] blink_detection: Blink onset detected with confidence 0.619
+2020-11-02 17:52:36,031 - world - [DEBUG] blink_detection: Blink offset detected with confidence 0.556
+2020-11-02 17:52:36,068 - world - [DEBUG] blink_detection: Blink offset detected with confidence 0.510
+2020-11-02 17:52:37,975 - world - [DEBUG] calibration_choreography.screen_marker_plugin: Moving screen marker to site at (1.0, 1.0)
+2020-11-02 17:52:38,179 - world - [DEBUG] blink_detection: Blink onset detected with confidence 0.568
+2020-11-02 17:52:38,215 - world - [DEBUG] blink_detection: Blink onset detected with confidence 0.567
+2020-11-02 17:52:40,627 - world - [DEBUG] calibration_choreography.screen_marker_plugin: Moving screen marker to site at (1.0, 0.0)
+2020-11-02 17:52:44,172 - world - [DEBUG] calibration_choreography.screen_marker_plugin: Moving screen marker to site at (0.0, 0.0)
+2020-11-02 17:52:44,275 - world - [DEBUG] blink_detection: Blink onset detected with confidence 0.534
+2020-11-02 17:52:44,313 - world - [DEBUG] blink_detection: Blink onset detected with confidence 0.782
+2020-11-02 17:52:46,739 - world - [INFO] calibration_choreography.base_plugin: Stopping  Calibration
+2020-11-02 17:52:46,945 - world - [WARNING] calibration_choreography.base_plugin: Calibration already stopped.
+2020-11-02 17:52:47,019 - world - [INFO] gaze_mapping.utils: Dismissing 18.93% pupil data due to confidence < 0.80
+2020-11-02 17:52:47,024 - world - [DEBUG] gaze_mapping.utils: Binocular match rejected due to time dispersion criterion
+2020-11-02 17:52:47,034 - world - [DEBUG] gaze_mapping.utils: Collected 199 binocular references.
+2020-11-02 17:52:47,036 - world - [DEBUG] gaze_mapping.utils: Collected 199 right eye monocular references.
+2020-11-02 17:52:47,036 - world - [DEBUG] gaze_mapping.utils: Collected 200 left eye monocular references.
+2020-11-02 17:52:49,099 - world - [INFO] accuracy_visualizer: Angular accuracy: 3.542597532272339. Used 1540 of 1836 samples.
+2020-11-02 17:52:49,099 - world - [INFO] accuracy_visualizer: Angular precision: 0.1267254501581192. Used 1802 of 1835 samples.
+2020-11-02 17:52:49,108 - world - [ERROR] launchables.world: Process Capture crashed with trace:
+Traceback (most recent call last):
+  File "launchables\world.py", line 712, in world
+  File "shared_modules\accuracy_visualizer.py", line 266, in on_notify
+  File "shared_modules\accuracy_visualizer.py", line 300, in __handle_calibration_result_notification
+  File "shared_modules\accuracy_visualizer.py", line 368, in recalculate
+  File "qhull.pyx", line 2420, in scipy.spatial.qhull.ConvexHull.__init__
+  File "qhull.pyx", line 269, in scipy.spatial.qhull._Qhull.__init__
+  File "messagestream.pyx", line 36, in scipy._lib.messagestream.MessageStream.__init__
+OSError: Failed to open file b'C:\\Users\\\xe6\xbc\x86\xe6\xad\xa3\xe7\x9b\x8a\\AppData\\Local\\Temp\\scipy-q406kgi6'
+
+2020-11-02 17:52:49,108 - world - [INFO] launchables.world: Process shutting down.
+2020-11-02 17:52:49,367 - eye0 - [DEBUG] plugin: Unloaded Plugin: <pupil_detector_plugins.detector_3d_plugin.Detector3DPlugin object at 0x0000021A5C346550>
+2020-11-02 17:52:49,367 - eye0 - [DEBUG] plugin: Unloaded Plugin: <pupil_detector_plugins.detector_2d_plugin.Detector2DPlugin object at 0x0000021A5C346518>
+2020-11-02 17:52:49,367 - eye0 - [DEBUG] plugin: Unloaded Plugin: <roi.Roi object at 0x0000021A56393F28>
+2020-11-02 17:52:49,373 - eye0 - [DEBUG] uvc: Stream stopped
+2020-11-02 17:52:49,374 - eye1 - [DEBUG] plugin: Unloaded Plugin: <pupil_detector_plugins.detector_3d_plugin.Detector3DPlugin object at 0x000001D1904F45F8>
+2020-11-02 17:52:49,374 - eye1 - [DEBUG] plugin: Unloaded Plugin: <pupil_detector_plugins.detector_2d_plugin.Detector2DPlugin object at 0x000001D1904F45C0>
+2020-11-02 17:52:49,374 - eye1 - [DEBUG] plugin: Unloaded Plugin: <roi.Roi object at 0x000001D1904F42E8>
+2020-11-02 17:52:49,380 - eye1 - [DEBUG] uvc: Stream stopped
+2020-11-02 17:52:49,412 - eye0 - [DEBUG] uvc: Stream closed
+2020-11-02 17:52:49,413 - eye0 - [DEBUG] uvc: Stream stop.
+2020-11-02 17:52:49,416 - eye0 - [DEBUG] uvc: UVC device closed.
+2020-11-02 17:52:49,416 - eye0 - [DEBUG] plugin: Unloaded Plugin: <video_capture.uvc_backend.UVC_Source object at 0x0000021A573F3438>
+2020-11-02 17:52:49,417 - eye0 - [DEBUG] plugin: Unloaded Plugin: <video_capture.file_backend.File_Manager object at 0x0000021A573CC080>
+2020-11-02 17:52:49,418 - eye0 - [DEBUG] ndsi.network: Stopping network...
+2020-11-02 17:52:49,434 - eye0 - [DEBUG] ndsi.network: Stopping network...
+2020-11-02 17:52:49,445 - eye0 - [DEBUG] plugin: Unloaded Plugin: <video_capture.ndsi_backend.NDSI_Manager object at 0x0000021A56393F60>
+2020-11-02 17:52:49,446 - eye0 - [DEBUG] plugin: Unloaded Plugin: <video_capture.uvc_backend.UVC_Manager object at 0x0000021A56393EB8>
+2020-11-02 17:52:49,446 - eye1 - [DEBUG] uvc: Stream closed
+2020-11-02 17:52:49,448 - eye1 - [DEBUG] uvc: Stream stop.
+2020-11-02 17:52:49,449 - eye1 - [DEBUG] uvc: UVC device closed.
+2020-11-02 17:52:49,450 - eye1 - [DEBUG] plugin: Unloaded Plugin: <video_capture.uvc_backend.UVC_Source object at 0x000001D18B580358>
+2020-11-02 17:52:49,450 - eye1 - [DEBUG] plugin: Unloaded Plugin: <video_capture.file_backend.File_Manager object at 0x000001D18B55C0B8>
+2020-11-02 17:52:49,450 - eye1 - [DEBUG] ndsi.network: Stopping network...
+2020-11-02 17:52:49,458 - eye1 - [DEBUG] ndsi.network: Stopping network...
+2020-11-02 17:52:49,464 - eye1 - [DEBUG] plugin: Unloaded Plugin: <video_capture.ndsi_backend.NDSI_Manager object at 0x000001D18A522F98>
+2020-11-02 17:52:49,467 - eye1 - [DEBUG] plugin: Unloaded Plugin: <video_capture.uvc_backend.UVC_Manager object at 0x000001D18A522EF0>
+2020-11-02 17:52:49,474 - eye0 - [INFO] launchables.eye: Process shutting down.
+2020-11-02 17:52:49,488 - eye1 - [INFO] launchables.eye: Process shutting down.
